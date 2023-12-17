@@ -328,10 +328,10 @@ def solucion(partes, grandezas, n, m, k):
 
     print("El orden en el que se debe presentar los animales es:")
 
-    # print("Apertura =", aperturaF)
+     print("Apertura =", aperturaF)
 
-    # for parte in partesF:
-    #     print('Parte: ', parte)
+     for parte in partesF:
+         print('Parte: ', parte)
 
     print("Los animales que participaron en más escenas con su respectivo numero de apariciones fueron: ",lista_animales_max )
 
@@ -446,20 +446,20 @@ def generador_partes(animales, m, k):
 #     m += 500
 
 
-print("Analisis de N")
-n = 500
-m = 1000
-k = 10
-for i in range (0,20):
-    ANIMALES = generador_animales(n)
-    n = len(ANIMALES)
-    apertura = generador_apertura(ANIMALES, m, k)
-    partes = generador_partes(ANIMALES, m, k)
-    partes.insert(0, apertura)
-    tiempo_inicio = time.time()
-    solucion(partes, ANIMALES, n, m, k)
-    tiempo_final = time.time()
-    tiempo_ejecucion = tiempo_final - tiempo_inicio
-    print(f'n = {n}')
-    print(f'El tiempo del calculo de N fue: {tiempo_ejecucion}')
-    n += 500  
+# print("Analisis de N")
+# n = 500
+# m = 1000
+# k = 10
+# for i in range (0,20):
+#     ANIMALES = generador_animales(n)
+#     n = len(ANIMALES)
+#     apertura = generador_apertura(ANIMALES, m, k)
+#     partes = generador_partes(ANIMALES, m, k)
+#     partes.insert(0, apertura)
+#     tiempo_inicio = time.time()
+#     solucion(partes, ANIMALES, n, m, k)
+#     tiempo_final = time.time()
+#     tiempo_ejecucion = tiempo_final - tiempo_inicio
+#     print(f'n = {n}')
+#     print(f'El tiempo del calculo de N fue: {tiempo_ejecucion}')
+#     n += 500  
