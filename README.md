@@ -13,7 +13,7 @@ Clonar o Descargar el Repositorio:
 
 Clonar el Repositorio: Abre la terminal y ejecuta el siguiente comando para clonar el repositorio:
 
-git clone https://github.com/tuusuario/nombre-del-repositorio.git
+git clone (https://github.com/andresengineer/ADAI.git
 
 Descargar el Repositorio: Descarga el repositorio como un archivo ZIP y extráelo en tu máquina.
 Abrir la Terminal o CMD:
